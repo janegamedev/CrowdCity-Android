@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 52397ff08faa8cd4b8517baf35919b42, type: 2}
 --- !u!1 &251943937
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06dd1a59f3d6e074abc8153cac1aa030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  followerState: 0
 --- !u!136 &251943940
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -269,6 +270,8 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 256
+  target: {x: 0, y: 0, z: 0}
+  leader: {fileID: 0}
 --- !u!1 &639336832
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,7 +422,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1197036935
 MeshCollider:
@@ -13956,7 +13959,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13212
+  m_Name: pb_Mesh36952
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
