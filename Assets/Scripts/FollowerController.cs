@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 using UnityEngine.AI;
-
+[RequireComponent(typeof(NavMeshAgent))]
 public class FollowerController : Grabber
 {
     public Vector3 target;
@@ -12,28 +12,18 @@ public class FollowerController : Grabber
     private void Awake()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        if (_navMeshAgent == null)
-        {
-            _navMeshAgent = gameObject.AddComponent<NavMeshAgent>();
-        }
     }
 
     private void LateUpdate()
     {
-        SetDestination();
-    }
-
-    private void SetDestination()
-    {
         _navMeshAgent.SetDestination(target);
     }
-
+    
     public bool IsAtDestination()
     {
         return true;
     }
 
-    
     public override void CheckForGrabbers()
     {
         Collider[] grabbers = Physics.OverlapSphere(transform.position, grabbingRange, layerMask);
@@ -50,6 +40,8 @@ public class FollowerController : Grabber
 
     public override void BeGrabbed(Grabber l)
     {
+        if(l == leader) return;
+        
         if (l.GetFollowersAmount() > leader.GetFollowersAmount())
         {
             leader = l;

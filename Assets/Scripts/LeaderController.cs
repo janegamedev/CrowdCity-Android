@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class LeaderController : Grabber
 {
     private int _followersAmount = 0;
@@ -8,10 +9,6 @@ public class LeaderController : Grabber
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
-        if (_characterController == null)
-        {
-            _characterController = gameObject.AddComponent<CharacterController>();
-        }
     }
 
     public void Move(Vector3 dirNormalized)
