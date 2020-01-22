@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class LeaderController : MonoBehaviour , IGrabber
+public class LeaderController : Grabber
 {
-    public float movementSpeed;
-
-    private int _followersAmount;
+    private int _followersAmount = 0;
     private CharacterController _characterController;
 
     private void Awake()
@@ -21,21 +16,35 @@ public class LeaderController : MonoBehaviour , IGrabber
 
     public void Move(Vector3 dirNormalized)
     {
-        _characterController.Move(dirNormalized * movementSpeed);
+        dirNormalized *= movementSpeed;
+        _characterController.Move(dirNormalized * Time.deltaTime);
+        
+        if (dirNormalized != Vector3.zero)
+            transform.rotation = Quaternion.LookRotation(dirNormalized);
     }
 
-    public void CheckForGrabbers()
+    public override void CheckForGrabbers()
     {
-        throw new System.NotImplementedException();
+        Collider[] grabbers = Physics.OverlapSphere(transform.position, grabbingRange, layerMask);
+        foreach (Collider c in grabbers)
+        {
+            Grabber grabber = c.GetComponent<Grabber>();
+            if (grabber != null)
+            {
+                grabber.BeGrabbed(this);
+            }
+        }
     }
 
-    public void Grab(IGrabber grabber)
+    public override void BeGrabbed(Grabber leader)
     {
-        throw new System.NotImplementedException();
+        if (_followersAmount > 0) return;
+        
+        //TODO:: logic for loosing
     }
 
-    public void BeGrabbed()
+    public override int? GetFollowersAmount()
     {
-        throw new System.NotImplementedException();
+        return _followersAmount;
     }
 }
