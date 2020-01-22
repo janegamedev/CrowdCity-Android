@@ -3,21 +3,26 @@
 [RequireComponent(typeof(CharacterController))]
 public class LeaderController : Grabber
 {
+    private Vector3 _dir;
     private int _followersAmount = 0;
     private CharacterController _characterController;
 
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
+        _dir = Vector3.forward * movementSpeed;
     }
 
     public void Move(Vector3 dirNormalized)
     {
-        dirNormalized *= movementSpeed;
-        _characterController.Move(dirNormalized * Time.deltaTime);
-        
         if (dirNormalized != Vector3.zero)
-            transform.rotation = Quaternion.LookRotation(dirNormalized);
+        {
+            _dir = dirNormalized * movementSpeed;
+        }
+        
+        _characterController.Move(_dir * Time.deltaTime);
+        
+        transform.rotation = Quaternion.LookRotation(_dir);
     }
 
     public override void CheckForGrabbers()
