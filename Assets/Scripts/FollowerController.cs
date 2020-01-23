@@ -21,7 +21,12 @@ public class FollowerController : Grabber
     
     public bool IsAtDestination()
     {
-        return true;
+        if ((transform.position - target).sqrMagnitude < 2)
+        {
+            return true;
+        }
+        
+        return false;
     }
 
     public override void CheckForGrabbers()

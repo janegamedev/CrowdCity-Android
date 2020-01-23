@@ -18,6 +18,7 @@ public class Follower : MonoBehaviour
     {
         _followerController = GetComponent<FollowerController>();
         followerState = State.WONDERING;
+        _followerController.target = transform.position;
     }
     
     private void Update()
@@ -27,12 +28,12 @@ public class Follower : MonoBehaviour
             case State.WONDERING:
                 if (_followerController.IsAtDestination())
                 {
-                    _dir = transform.position + Random.insideUnitSphere * Random.Range(10, 40);
+                    _dir = transform.position +  Random.insideUnitSphere * Random.Range(5, 10);
                 }
                 break;
             
             case State.FOLLOWING:
-                _dir = _followerController.leader.transform.position + (Vector3)Random.insideUnitCircle;
+                _dir = _followerController.leader.transform.position + ( Random.insideUnitSphere);
                 _followerController.CheckForGrabbers();
                 break;
             
@@ -40,7 +41,10 @@ public class Follower : MonoBehaviour
                 throw new ArgumentOutOfRangeException();
         }
 
+        _dir.y = 0;
         _followerController.target = _dir;
     }
+    
+    
 
 }
