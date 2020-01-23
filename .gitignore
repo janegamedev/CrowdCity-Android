@@ -64,3 +64,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 csharp_timers.json
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
