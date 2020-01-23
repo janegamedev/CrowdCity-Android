@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 33084999409641778}
   - component: {fileID: 23178984230040308}
   - component: {fileID: 65832649440975936}
+  - component: {fileID: 6165451857074371025}
+  - component: {fileID: -7880276528566545210}
   m_Layer: 0
   m_Name: truck 7
   m_TagString: Untagged
@@ -99,6 +101,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.024889, y: 4.3376107, z: 8.456348}
   m_Center: {x: 0.008267283, y: 2.4033926, z: -0.2599709}
+--- !u!114 &6165451857074371025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194367832112102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8937d21c44a964d8b7ab47378b0032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWaypoint: {fileID: 0}
+--- !u!114 &-7880276528566545210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194367832112102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a882462f0d198374c9e80a4068b1b9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
+  stoppingDistance: 2
+  reachedDestination: 0
 --- !u!1 &1207976173568094
 GameObject:
   m_ObjectHideFlags: 0

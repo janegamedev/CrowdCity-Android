@@ -330,6 +330,8 @@ GameObject:
   - component: {fileID: 33615186898812762}
   - component: {fileID: 23504970306388256}
   - component: {fileID: 65552082800403484}
+  - component: {fileID: -3636150788153177771}
+  - component: {fileID: -8747679788547053100}
   m_Layer: 0
   m_Name: bus 2
   m_TagString: Untagged
@@ -415,3 +417,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.191426, y: 3.4925306, z: 12.183163}
   m_Center: {x: -0.00033259392, y: 2.025342, z: -0.11338997}
+--- !u!114 &-3636150788153177771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925550782661188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8937d21c44a964d8b7ab47378b0032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWaypoint: {fileID: 0}
+--- !u!114 &-8747679788547053100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925550782661188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a882462f0d198374c9e80a4068b1b9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
+  stoppingDistance: 2
+  reachedDestination: 0

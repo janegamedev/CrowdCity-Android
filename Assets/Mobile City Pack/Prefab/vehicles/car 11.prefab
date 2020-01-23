@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 33443718395034482}
   - component: {fileID: 23426794468959328}
   - component: {fileID: 65437258139041848}
+  - component: {fileID: 2756604952191131150}
+  - component: {fileID: 581121472386023617}
   m_Layer: 0
   m_Name: car 11
   m_TagString: Untagged
@@ -97,6 +99,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0833497, y: 1.5316197, z: 6.229905}
   m_Center: {x: 0, y: 1.1202794, z: 0}
+--- !u!114 &2756604952191131150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033396379746222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8937d21c44a964d8b7ab47378b0032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWaypoint: {fileID: 0}
+--- !u!114 &581121472386023617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033396379746222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a882462f0d198374c9e80a4068b1b9bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
+  stoppingDistance: 2
+  reachedDestination: 0
 --- !u!1 &1066258577633712
 GameObject:
   m_ObjectHideFlags: 0
