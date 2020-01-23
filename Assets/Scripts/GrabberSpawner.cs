@@ -42,12 +42,20 @@ public class GrabberSpawner : MonoBehaviour
         return RandomPointInBounds(randomSpawn.bounds);
     }
 
-    private static Vector3 RandomPointInBounds(Bounds bounds) {
-        return new Vector3(
+    private static Vector3 RandomPointInBounds(Bounds bounds)
+    {
+        Vector3 random =  new Vector3(
             Random.Range(bounds.min.x, bounds.max.x),
             0,
             Random.Range(bounds.min.z, bounds.max.z)
         );
+        
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(random, out hit, 100.0f, NavMesh.AllAreas))
+        {
+            random = hit.position;
+        }
+        return random;
     }
 
     IEnumerator SpawnDelay()
