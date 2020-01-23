@@ -7638,6 +7638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 272.5
@@ -9221,6 +9225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 97.50006
@@ -9593,7 +9601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9655,28 +9663,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613941699633902}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613941699633904 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613941699633902}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613941699633905
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613941699633904}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613941714392688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11257,6 +11243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge end (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1585751674496446, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4955184607346074, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
       propertyPath: m_LocalPosition.x
       value: -165.00003
@@ -12071,6 +12061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river corner in (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1272593381647140, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4984890492202952, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -12226,6 +12220,10 @@ PrefabInstance:
     - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_Name
       value: river pipe (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4537986966083756, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13613,6 +13611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge tile (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -165.00003
@@ -13675,6 +13677,10 @@ PrefabInstance:
     - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_Name
       value: river side 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14510,6 +14516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river corner in (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1272593381647140, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4984890492202952, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 118.75006
@@ -15131,6 +15141,10 @@ PrefabInstance:
     - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_Name
       value: river side 6 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16616,7 +16630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16678,28 +16692,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613941865500529}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613941865500531 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613941865500529}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613941865500532
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613941865500531}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613941866400259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17446,6 +17438,10 @@ PrefabInstance:
     - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_Name
       value: river side 3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20197,6 +20193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river corner out (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687724460267330, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4405153450568936, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.75
@@ -20932,6 +20932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 212.5
@@ -21177,7 +21181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21243,28 +21247,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613941957244132}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613941957244134 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613941957244132}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613941957244135
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613941957244134}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613941958764574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23847,6 +23829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132.50003
@@ -23909,6 +23895,10 @@ PrefabInstance:
     - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_Name
       value: road bridge tile (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24495,7 +24485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24561,28 +24551,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942026488471}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942026488473 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942026488471}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942026488474
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942026488473}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942027986198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26088,6 +26056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 182.5
@@ -26544,6 +26516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge tile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 155
@@ -26744,6 +26720,10 @@ PrefabInstance:
     - target: {fileID: 1687724460267330, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
       propertyPath: m_Name
       value: river corner out (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687724460267330, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4405153450568936, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27135,6 +27115,10 @@ PrefabInstance:
     - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_Name
       value: river side 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4313507955597450, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27698,6 +27682,10 @@ PrefabInstance:
     - target: {fileID: 1585751674496446, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
       propertyPath: m_Name
       value: road bridge end (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585751674496446, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4955184607346074, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28604,7 +28592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28670,28 +28658,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942114171424}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942114171426 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942114171424}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942114171427
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942114171426}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942114668452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29410,6 +29376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -97.50003
@@ -29472,6 +29442,10 @@ PrefabInstance:
     - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_Name
       value: road bridge tile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32552,6 +32526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge end (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1585751674496446, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4955184607346074, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
       propertyPath: m_LocalPosition.x
       value: 155
@@ -34710,6 +34688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4313507955597450, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -34947,7 +34929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35013,28 +34995,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942250582369}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942250582371 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942250582369}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942250582372
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942250582371}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942253842129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35645,7 +35605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35707,28 +35667,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942264744317}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942264744319 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942264744317}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942264744320
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942264744319}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942265545637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36191,6 +36129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131.25006
@@ -36332,6 +36274,10 @@ PrefabInstance:
     - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_Name
       value: river pipe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4537986966083756, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37720,7 +37666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37782,28 +37728,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942294874688}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942294874690 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942294874688}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942294874691
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942294874690}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942295021591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40999,6 +40923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge tile (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 155
@@ -41128,6 +41056,10 @@ PrefabInstance:
     - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_Name
       value: river side 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4313507955597450, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42071,7 +42003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42133,28 +42065,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942415698053}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942415698055 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942415698053}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942415698056
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942415698055}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942419790289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45307,6 +45217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river corner in (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1272593381647140, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4984890492202952, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.75
@@ -45744,6 +45658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4313507955597450, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_LocalPosition.x
       value: -150.00003
@@ -45880,7 +45798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45942,28 +45860,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942514892738}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942514892740 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942514892738}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942514892741
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942514892740}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942515553280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46467,7 +46363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46529,28 +46425,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942537306085}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942537306087 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942537306085}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942537306088
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942537306087}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942538075806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46639,7 +46513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46705,28 +46579,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942541522499}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942541522501 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942541522499}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942541522502
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942541522501}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942543439596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48632,6 +48484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge tile (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -165.00003
@@ -49311,6 +49167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge tile
       objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -49380,7 +49240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49438,28 +49298,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942606964106}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942606964108 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942606964106}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942606964109
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942606964108}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942610307745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50520,6 +50358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge end (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1585751674496446, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4955184607346074, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
       propertyPath: m_LocalPosition.x
       value: -165.00003
@@ -50926,6 +50768,10 @@ PrefabInstance:
     - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_Name
       value: river side 6 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52102,6 +51948,10 @@ PrefabInstance:
     - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_Name
       value: river side 6 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54665,6 +54515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river corner out
       objectReference: {fileID: 0}
+    - target: {fileID: 1687724460267330, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4405153450568936, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.25006
@@ -54727,6 +54581,10 @@ PrefabInstance:
     - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_Name
       value: river pipe (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4537986966083756, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56194,6 +56052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 2.5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
       value: 123.75
@@ -57178,7 +57040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57244,28 +57106,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942774483110}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942774483112 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942774483110}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942774483113
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942774483112}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942775714390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58041,6 +57881,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3683613942678284097}
     m_Modifications:
+    - target: {fileID: 1205956297198682, guid: 88a5c34be0adb8048b9dec9cba4539fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1205956297198682, guid: 88a5c34be0adb8048b9dec9cba4539fc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1792205098110970, guid: 88a5c34be0adb8048b9dec9cba4539fc, type: 3}
       propertyPath: m_Name
       value: mall e
@@ -58053,13 +57901,17 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1792205098110970, guid: 88a5c34be0adb8048b9dec9cba4539fc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4830562102579570, guid: 88a5c34be0adb8048b9dec9cba4539fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70.79999
       objectReference: {fileID: 0}
     - target: {fileID: 4830562102579570, guid: 88a5c34be0adb8048b9dec9cba4539fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00020134449
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4830562102579570, guid: 88a5c34be0adb8048b9dec9cba4539fc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -58105,6 +57957,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942805431469}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3683613942805431471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1205956297198682, guid: 88a5c34be0adb8048b9dec9cba4539fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 3683613942805431469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &3683613942805431472
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3683613942805431471}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 12.587001, y: 12.425, z: 7.5930004}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.087000005, y: 12.425, z: -0.011000001}
+  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942806016842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58736,6 +58610,10 @@ PrefabInstance:
     - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_Name
       value: road bridge tile (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -59721,6 +59599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -102.50003
@@ -60037,7 +59919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60103,28 +59985,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942858861840}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942858861842 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942858861840}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942858861843
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942858861842}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942859478740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60711,6 +60571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -37.5
@@ -61058,6 +60922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.5
@@ -61266,6 +61134,10 @@ PrefabInstance:
     - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_Name
       value: river side 2.5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
@@ -61579,7 +61451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -61641,28 +61513,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942887991114}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942887991116 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942887991114}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942887991117
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942887991116}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942888995948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62364,7 +62214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62426,28 +62276,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613942909952287}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613942909952289 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613942909952287}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613942909952290
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613942909952289}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613942912702851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62816,6 +62644,10 @@ PrefabInstance:
     - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_Name
       value: river side 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65729,6 +65561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 2.5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
       value: 136.25
@@ -65791,6 +65627,10 @@ PrefabInstance:
     - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_Name
       value: road bridge tile (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -66488,6 +66328,10 @@ PrefabInstance:
     - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_Name
       value: river side 6 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67480,6 +67324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge end
       objectReference: {fileID: 0}
+    - target: {fileID: 1585751674496446, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4955184607346074, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -67549,7 +67397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67615,28 +67463,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943034626476}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943034626478 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943034626476}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943034626479
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943034626478}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943037201798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69553,7 +69379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69615,28 +69441,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943096308563}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943096308565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943096308563}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943096308566
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943096308565}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943102688032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70945,6 +70749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 212.5
@@ -71500,7 +71308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71562,28 +71370,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943153320566}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943153320568 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943153320566}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943153320569
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943153320568}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &3683613943156390753
 GameObject:
   m_ObjectHideFlags: 0
@@ -71710,7 +71496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71772,28 +71558,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943162128176}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943162128178 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943162128176}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943162128179
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943162128178}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943163560057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71883,6 +71647,10 @@ PrefabInstance:
     - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_Name
       value: road bridge tile (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72353,6 +72121,10 @@ PrefabInstance:
     - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_Name
       value: river side 6 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73293,7 +73065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73355,28 +73127,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943197379028}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943197379030 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943197379028}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943197379031
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943197379030}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943200408011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73900,6 +73650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -127.50003
@@ -73962,6 +73716,10 @@ PrefabInstance:
     - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_Name
       value: river pipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4537986966083756, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -76452,6 +76210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge tile (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -165.00003
@@ -78793,6 +78555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road bridge end (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1585751674496446, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4955184607346074, guid: 2a7651bbb915b0b4fa1bc0d804bd0f06, type: 3}
       propertyPath: m_LocalPosition.x
       value: 155
@@ -79448,7 +79214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79514,28 +79280,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943361019719}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943361019721 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943361019719}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943361019722
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943361019721}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943361434231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79822,7 +79566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79880,28 +79624,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943365607669}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943365607671 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943365607669}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943365607672
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943365607671}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943368607160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80836,6 +80558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4313507955597450, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 140
@@ -81526,6 +81252,10 @@ PrefabInstance:
     - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_Name
       value: road bridge tile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008902622128920, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4060206924532260, guid: 32849ea95be572340af0b47390cf09fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -82435,6 +82165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1589529437379664, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4313507955597450, guid: c133ddfc72d1c6c4b85a342643929f46, type: 3}
       propertyPath: m_LocalPosition.x
       value: -150.00003
@@ -82512,7 +82246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -82574,28 +82308,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943422574486}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943422574488 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943422574486}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943422574489
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943422574488}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943422681976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83649,6 +83361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 242.5
@@ -84504,6 +84220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river corner out (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687724460267330, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4405153450568936, guid: e9d7a62844bfaa44b8c678dd0754862d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -85242,6 +84962,10 @@ PrefabInstance:
     - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_Name
       value: river side 6 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -86906,6 +86630,10 @@ PrefabInstance:
     - target: {fileID: 1272593381647140, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
       propertyPath: m_Name
       value: river corner in
+      objectReference: {fileID: 0}
+    - target: {fileID: 1272593381647140, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4984890492202952, guid: 4efbb1f22a0facb48907264cd2ff5664, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89539,7 +89267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_NavMeshLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520764085757410, guid: 870a8f1655758c64dad5c6b08a2c013a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89605,28 +89333,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3683613943602534727}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3683613943602534729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1727400255523446, guid: 870a8f1655758c64dad5c6b08a2c013a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3683613943602534727}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &3683613943602534730
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683613943602534729}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.5, y: 0.00001, z: 2.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3683613943605102844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94372,6 +94078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1578260003417482, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4796074773859706, guid: ffb4236ae7a8013428f63508f4786662, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -95028,6 +94738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: river side 6 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.5
@@ -95408,6 +95122,10 @@ PrefabInstance:
     - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_Name
       value: river side 6 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244068586229494, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4558692598452826, guid: 3a7b5321ce7dd0d4299da28c73d73a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -96943,6 +96661,10 @@ PrefabInstance:
     - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_Name
       value: river pipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880324557962110, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4537986966083756, guid: ad6eea5f05dfa314896285814a34fbb5, type: 3}
       propertyPath: m_LocalPosition.x
