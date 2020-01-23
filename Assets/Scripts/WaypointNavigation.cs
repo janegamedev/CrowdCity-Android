@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = UnityEngine.Random;
-
 
 public class WaypointNavigation : MonoBehaviour
 {
@@ -15,8 +11,9 @@ public class WaypointNavigation : MonoBehaviour
         _carNavigationController = GetComponent<CarNavigationController>();
     }
 
-    private void Start()
+    public void Init(Waypoint point)
     {
+        currentWaypoint = point;
         _carNavigationController.SetDestination(currentWaypoint.GetPosition());
     }
 
@@ -24,14 +21,7 @@ public class WaypointNavigation : MonoBehaviour
     {
         if (_carNavigationController.reachedDestination)
         {
-            bool shouldBranch = false;
-
-            if (currentWaypoint.branches != null && currentWaypoint.branches.Count > 0)
-            {
-                shouldBranch = Random.Range(0f, 1f) <= currentWaypoint.branchRation ? true : false;
-            }
-
-            if (shouldBranch || currentWaypoint.nextWaypoint == null)
+            if (currentWaypoint.nextWaypoint == null && currentWaypoint.branches != null)
             {
                 currentWaypoint = currentWaypoint.branches[Random.Range(0, currentWaypoint.branches.Count - 1)];
             }

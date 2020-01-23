@@ -26,7 +26,6 @@ public class CarNavigationController : MonoBehaviour
         
         if (!reachedDestination)
         {
-            /*Debug.Log(transform.position - _destination);*/
             transform.LookAt(_destination);
             _rigidbody.velocity = ( _destination - transform.position).normalized * speed;
             /*_rigidbody.AddForce(transform.forward * speed);*/

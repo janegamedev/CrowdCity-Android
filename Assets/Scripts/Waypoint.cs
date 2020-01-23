@@ -11,8 +11,6 @@ public class Waypoint : MonoBehaviour
     public float width = 5f;
 
     public List<Waypoint> branches = new List<Waypoint>();
-    [Range(0f,1f)]
-    public float branchRation = 0.5f;
 
     public Vector3 GetPosition()
     {
