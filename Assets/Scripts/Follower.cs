@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
 public enum State
@@ -11,14 +12,14 @@ public enum State
 public class Follower : MonoBehaviour
 {
     public State followerState;
-    private Vector3 _dir;
+    private Vector3 target;
     private FollowerController _followerController;
     
     private void Awake()
     {
         _followerController = GetComponent<FollowerController>();
         followerState = State.WONDERING;
-        _followerController.target = transform.position;
+        _followerController.target = target = transform.position;
     }
     
     private void Update()
@@ -28,12 +29,12 @@ public class Follower : MonoBehaviour
             case State.WONDERING:
                 if (_followerController.IsAtDestination())
                 {
-                    _dir = transform.position +  Random.insideUnitSphere * Random.Range(20, 40);
+                    GetPointOnNavMesh(transform.position + Random.insideUnitSphere * Random.Range(20, 40));
                 }
                 break;
             
             case State.FOLLOWING:
-                _dir = _followerController.leader.transform.position + Random.insideUnitSphere;
+                target = _followerController.leader.transform.position + Random.insideUnitSphere;
                 _followerController.CheckForGrabbers();
                 break;
             
@@ -41,10 +42,16 @@ public class Follower : MonoBehaviour
                 throw new ArgumentOutOfRangeException();
         }
 
-        _dir.y = 0;
-        _followerController.target = _dir;
+        target.y = 0;
+        _followerController.target = target;
     }
-    
-    
 
+    private void GetPointOnNavMesh(Vector3 _target)
+    {
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(_target, out hit, 10.0f, NavMesh.AllAreas))
+        {
+            target = hit.position;
+        }
+    }
 }
