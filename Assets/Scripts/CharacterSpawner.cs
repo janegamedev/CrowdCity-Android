@@ -5,9 +5,9 @@ using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-public class GrabberSpawner : MonoBehaviour
+public class CharacterSpawner : MonoBehaviour
 {
-    public GameObject leader;
+    public GameObject leaderPrefab;
     public GameObject followerPrefab;
     
     public Collider[] spawnFollowerSpots;

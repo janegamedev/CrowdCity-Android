@@ -21,7 +21,7 @@ public class FollowerController : Grabber
     
     public bool IsAtDestination()
     {
-        if ((transform.position - target).sqrMagnitude < 9)
+        if ((transform.position - target).sqrMagnitude < 16)
         {
             return true;
         }
