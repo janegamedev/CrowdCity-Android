@@ -28,12 +28,12 @@ public class Follower : MonoBehaviour
             case State.WONDERING:
                 if (_followerController.IsAtDestination())
                 {
-                    _dir = transform.position +  Random.insideUnitSphere * Random.Range(5, 10);
+                    _dir = transform.position +  Random.insideUnitSphere * Random.Range(20, 40);
                 }
                 break;
             
             case State.FOLLOWING:
-                _dir = _followerController.leader.transform.position + ( Random.insideUnitSphere);
+                _dir = _followerController.leader.transform.position + Random.insideUnitSphere;
                 _followerController.CheckForGrabbers();
                 break;
             
