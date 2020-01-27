@@ -23,7 +23,7 @@ public class WaypointNavigation : MonoBehaviour
         {
             if (currentWaypoint.nextWaypoint == null && currentWaypoint.branches != null)
             {
-                currentWaypoint = currentWaypoint.branches[Random.Range(0, currentWaypoint.branches.Count - 1)];
+                currentWaypoint = currentWaypoint.branches[Random.Range(0, currentWaypoint.branches.Count)];
             }
             else
             {

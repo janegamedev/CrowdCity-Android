@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class CarNavigationController : MonoBehaviour
@@ -26,10 +27,16 @@ public class CarNavigationController : MonoBehaviour
         
         if (!reachedDestination)
         {
-            /*transform.LookAt(_destination);*/
-            transform.Translate((transform.position - destination).normalized * (speed * Time.deltaTime), transform);
+            /*transform.Translate((transform.position - destination).normalized * (speed * Time.deltaTime), transform);*/
             /*_rigidbody.velocity = ( _destination - transform.position).normalized * speed;*/
             /*_rigidbody.AddForce(transform.forward * speed);*/
+            
+            float step =  speed * Time.deltaTime; // calculate distance to move
+            transform.position = Vector3.MoveTowards(transform.position, destination, step);
+            //transform.LookAt(destination);
+            transform.rotation = Quaternion.Slerp(transform.rotation,
+                Quaternion.LookRotation(destination - transform.position, Vector3.up), 5 * Time.deltaTime);
+            /*transform.rotation = Quaternion.Euler(destination);*/
         }
     }
 
