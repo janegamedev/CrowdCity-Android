@@ -4,14 +4,24 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class FollowerController : Grabber
 {
+    public Events.EventFollowerGrabbed onFollowerGrabbed;
     public Vector3 target;
-    public Grabber leader;
+    public LeaderController leader;
     
     private NavMeshAgent _navMeshAgent;
     
     private void Awake()
     {
+        canGrab = false;
         _navMeshAgent = GetComponent<NavMeshAgent>();
+    }
+    
+    private void Update()
+    {
+        if (canGrab)
+        {
+            CheckForGrabbers();
+        }
     }
 
     private void LateUpdate()
@@ -38,19 +48,36 @@ public class FollowerController : Grabber
             Grabber _grabber = grabber.GetComponent<Grabber>();
             if (_grabber != null)
             {
-                _grabber.BeGrabbed(leader);
+                if (_grabber.BeGrabbed(leader))
+                {
+                    StartCoroutine(GrabDelay());
+                    break;
+                }
             }
         }
     }
 
-    public override void BeGrabbed(Grabber l)
+    public override bool BeGrabbed(LeaderController l)
     {
-        if(l == leader) return;
-        
-        if (l.GetFollowersAmount() > leader.GetFollowersAmount())
+        if (leader == null)
         {
             leader = l;
-            //Change state 
+            leader.followersAmount++;
+            onFollowerGrabbed?.Invoke();
+            return true;
         }
+
+        if(l == leader) return false;
+            
+        if((l.GetFollowersAmount() > leader.GetFollowersAmount()))
+        {
+            leader.followersAmount--;
+            leader = l;
+            leader.followersAmount++;
+            onFollowerGrabbed?.Invoke();
+            return true;
+        }
+
+        return false;
     }
 }

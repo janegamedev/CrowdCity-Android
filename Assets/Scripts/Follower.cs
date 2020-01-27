@@ -18,6 +18,7 @@ public class Follower : MonoBehaviour
     private void Awake()
     {
         _followerController = GetComponent<FollowerController>();
+        _followerController.onFollowerGrabbed.AddListener(ChangeState);
         followerState = State.WONDERING;
         _followerController.target = target = transform.position;
     }
@@ -44,6 +45,11 @@ public class Follower : MonoBehaviour
 
         target.y = 0;
         _followerController.target = target;
+    }
+
+    private void ChangeState()
+    {
+        followerState = State.FOLLOWING;
     }
 
     private void GetPointOnNavMesh(Vector3 _target)

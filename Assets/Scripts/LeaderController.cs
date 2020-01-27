@@ -1,16 +1,19 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class LeaderController : Grabber
 {
     private Vector3 _dir;
-    private int _followersAmount = 0;
+    public int followersAmount = 0;
     private CharacterController _characterController;
 
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
         _dir = Vector3.forward * movementSpeed;
+        canGrab = true;
     }
 
     public void Move(Vector3 dirNormalized)
@@ -25,6 +28,14 @@ public class LeaderController : Grabber
         transform.rotation = Quaternion.LookRotation(_dir);
     }
 
+    private void Update()
+    {
+        if (canGrab)
+        {
+            CheckForGrabbers();
+        }
+    }
+
     public override void CheckForGrabbers()
     {
         Collider[] grabbers = Physics.OverlapSphere(transform.position, grabbingRange, layerMask);
@@ -33,20 +44,25 @@ public class LeaderController : Grabber
             Grabber grabber = c.GetComponent<Grabber>();
             if (grabber != null)
             {
-                grabber.BeGrabbed(this);
+                if (grabber.BeGrabbed(this))
+                {
+                    StartCoroutine(GrabDelay());
+                    break;
+                }
             }
         }
     }
 
-    public override void BeGrabbed(Grabber leader)
+    public override bool BeGrabbed(LeaderController leader)
     {
-        if (_followersAmount > 0) return;
-        
+        if (followersAmount > 0) return false;
+
         //TODO:: logic for loosing
+        return true;
     }
 
     public override int? GetFollowersAmount()
     {
-        return _followersAmount;
+        return followersAmount;
     }
 }
